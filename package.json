@@ -1,14 +1,14 @@
 {
   "name": "garaaz-components",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/cjs/index.js",
-"module": "./dist/esm/index.js",
-"types": "./dist/esm/index.d.ts",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
-"build:esm": "tsc",
-"build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\""
   },
