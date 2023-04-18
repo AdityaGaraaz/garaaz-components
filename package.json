@@ -29,7 +29,7 @@
     "typescript",
     "awesome-project"
   ],
-  "author": "",
+  "author": "Aditya",
   "license": "MIT",
   "devDependencies": {
     "@chakra-ui/react": "^2.5.5",
