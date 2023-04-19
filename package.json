@@ -17,8 +17,7 @@
     "url": "git@github.com:AdityaGaraaz/garaaz-components.git"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "@chakra-ui/react": "^1.6.7"
+    "react": ">=16"
   },
   "files": [
     "dist",
